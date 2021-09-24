@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <div class="app-wrap">
+
+        <header>
+            <input type="text" autocomplete="off" class="search-box" placeholder="Enter your location..." />
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">Dublin, Ireland</div>
+                <div class="date">Wednesday 15 September 2021</div>
+            </section>
+
+            <div class="current">
+                <div class="temp">15<span>°c</span></div>
+                <div class="feels">Feels like: 15°c</div>
+                <div class="weather">Sunny</div>
+                <div class="hi-low">13°c / 16°c</div>
+                <div class="windSpeed">Wind speed: 20 m/s</div>
+                <div class="container">
+                    <div class="left">
+                        <img src="Images/sunrise.png" />
+                        <div class="sunrise">06:00</div>
+                    </div>
+                    <div class="right">
+                        <img src="Images/sunset.png" />
+                        <div class="sunset">20:00</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
